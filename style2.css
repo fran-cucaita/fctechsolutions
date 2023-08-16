@@ -1,0 +1,97 @@
+body{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: large;
+}
+
+header{
+    width: 100%;    
+    /* background-color: red; */
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo{
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 25%;
+    display: inline-flex;    
+    align-items: center;
+}
+div.logo img{
+    width: auto;
+}
+
+nav a{
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans serif;
+    font-weight: 500;
+    color: black;
+    font-size: large;
+    
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer h3{
+    font-weight: 900;
+    font-size: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+    
+}
+
+footer img{
+    width: 30px;
+    align-items: center;
+}
+
+div.bady{
+    display: inline-flex;
+}
+div.form{
+    width: 60%;
+    font-size: large;
+    /* background-color: blue; */
+}
+input[type=text], select {
+    width: 45%;
+    padding: 12px 20px;
+    margin: 12px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea, select{
+    width: 93%;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+input[type=submit], select {
+    /* width: 20%; */
+    padding: 12px 20px;
+    margin: 12px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: turquoise;
+}
+div.info{
+    width: 40%;
+    /* background-color: blueviolet; */
+}
+
+p{
+    margin: 10px; 
+}
+

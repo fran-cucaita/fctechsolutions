@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: large;
+}
+
+header{
+    width: 100%;    
+    /* background-color: red; */
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo{
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 25%;
+    display: inline-flex;    
+    align-items: center;
+}
+div.logo img{
+    width: auto;
+}
+
+nav a{
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans serif;
+    font-weight: 500;
+    color: black;
+    font-size: large;
+    
+}
+
+img{
+    width: 40%;
+}
+
+div.bady{    
+    width: 80%;
+    margin: 0 auto;
+    align-self: center;
+
+}
+div.intro{
+    margin-top: 70px;
+    align-items: start;
+    /* width: 70%; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans serif;
+}
+
+div.texto{
+    margin: auto 60px;    
+}
+
+div.web{
+    display: inline-flex;
+    align-items: start;
+    margin-top: 50px;
+}
+
+div.apps{
+    display: inline-flex;
+    align-items: center;
+}
+
+div.otros{
+    align-items: center;
+    display: inline-flex;
+}
+
+div.todas{
+    display: inline-flex;
+    width: 100%;
+    padding: 10px;
+    margin: 50px auto;
+    align-self: center;
+    justify-content: space-between;
+}
+
+
+div.todas img{
+    width: 250px;
+}
+div.todas h5{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+footer h3{
+    font-weight: 900;
+    font-size: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+    
+}
+
+footer img{
+    width: 30px;
+    align-items: center;
+}
+
+
+div.networks{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    align-items: center;
+}

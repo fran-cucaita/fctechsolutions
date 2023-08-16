@@ -1,0 +1,174 @@
+body{
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    font-size: large;
+}
+
+header{
+    width: 100%;    
+    /* background-color: red; */
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.logo{
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 25%;
+    display: inline-flex;    
+    align-items: center;
+}
+
+nav a{
+    text-decoration:none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans serif;
+    font-weight: 500;
+    color: black;
+    font-size: large;
+    
+}
+
+
+div.home{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: large;
+}
+
+
+div.home button{
+    /* background-color: turquoise ; */
+    font-family: Cambria, sans serif;
+    font-weight: 800;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+}
+
+div.textos button:hover{
+    background-color: blue;
+    border: 0cm;
+    color: white;
+}
+
+div.textos p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.services {
+    display: inline-flex;
+    /* background-color: blanchedalmond; */
+    margin-top: 70px;
+    width: 100%;
+    padding: 30px;
+}
+
+div.services div.column{
+    text-align: center;
+    width: 33%;
+    align-self: flex-start;
+}
+div.services div.column img{
+    width: 380px;
+}
+div.services div.column h1{
+    margin-left: 70px;
+    margin-right: 70px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+
+footer h3{
+    font-weight: 900;
+    font-size: 20px;
+    /* font-family: 'Roboto', sans-serif; */
+    
+}
+
+footer img{
+    width: 30px;
+    align-items: center;
+}
+div.networks{
+    /* background-color: aqua; */
+    margin-top: 20px;
+    
+}
+div.networks img{
+    align-items: center;
+
+}
+.boton{
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.boton:hover{
+    background-color: turquoise;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+@media (max-width:700px) {
+    body{
+        width: 90%;
+        margin: auto;
+    }
+    nav{
+        display: none;
+    }
+    div.logo{
+        justify-content: space-between;
+        background-color: blue;
+        width: 90%;
+        display: inline-flex;    
+        align-items: center;
+    }
+    div.home{
+        display: block;
+        align-items: start;
+        background-color: aqua;
+        margin: auto;
+    }
+    div.home img{
+        margin-top: 20px;
+        width: 100%;
+    }
+    div.services {
+        display: block;
+        width: 100%;
+        margin: auto;
+        background-color: aquamarine;
+    }
+   
+    div.services div.column{
+        text-align: center;
+        width: 100%;
+        align-self: flex-start;
+    }
+
+    
+    div.services div.column h1{
+        /* display: none; */
+        font-size: medium;
+    }
+        div.services div.column img{
+        margin-top: 20px;
+        width: 100%;
+    }
+   
+}
